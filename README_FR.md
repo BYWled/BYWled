@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:8957e5&height=220&section=header&text=BYWled&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E8%80%85%20%7C%20%E5%BC%80%E6%BA%90%E7%88%B1%E5%A5%BD%E8%80%85&descSize=20&descAlignY=55" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:8957e5&height=220&section=header&text=BYWled&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=D%C3%A9veloppeur%20Full-Stack%20%7C%20Passionn%C3%A9%20d'Open%20Source&descSize=20&descAlignY=55" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=1F6FEB&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=%E5%98%BF%EF%BC%8C%E6%88%91%E6%98%AF+伴莺·Wled+%F0%9F%91%8B;代码写得好%EF%BC%8CBug少不了;提交提得勤%EF%BC%8C%E5%A4%B4%E5%8F%91%E6%8E%89%E5%BE%97%E8%BD%BB)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=1F6FEB&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Salut%2C+je+suis+BYWled+%F0%9F%91%8B;J'aime+%C3%A9crire+du+code;Les+bugs%3F+On+verra+plus+tard)](https://git.io/typing-svg)
 
 <br/>
 
@@ -12,46 +12,46 @@
 
 <br/>
 
-[![简体中文](https://img.shields.io/badge/当前-简体中文-0969da?labelColor=181717&style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cGF0aCBmaWxsPSIjZGUyOTEwIiBkPSJNMCAwaDkwMHY2MDBIMHoiLz48cG9seWdvbiBmaWxsPSIjZmZkZTAwIiBwb2ludHM9IjE1MCw1MCAxNzgsMTM1IDI2OCwxMzUgMTk1LDE4OCAyMjMsMjczIDE1MCwyMjAgNzcsMjczIDEwNSwxODggMzIsMTM1IDEyMiwxMzUiLz48cG9seWdvbiBmaWxsPSIjZmZkZTAwIiBwb2ludHM9IjMwMCw1MCAzMDYsNzggMzM0LDc4IDMxMSw5NCAzMjAsMTIxIDI5NywxMDQgMjc0LDEyMSAyODMsOTQgMjYwLDc4IDI4OCw3OCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzYwLDExMCAzNjYsMTM4IDM5NCwxMzggMzcxLDE1NCAzODAsMTgxIDM1NywxNjQgMzM0LDE4MSAzNDMsMTU0IDMyMCwxMzggMzQ4LDEzOCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzYwLDIxMCAzNjYsMjM4IDM5NCwyMzggMzcxLDI1NCAzODAsMjgxIDM1NywyNjQgMzM0LDI4MSAzNDMsMjU0IDMyMCwyMzggMzQ4LDIzOCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzAwLDI3MCAzMDYsMjk4IDMzNCwyOTggMzExLDMxNCAzMjAsMzQxIDI5NywzMjQgMjc0LDM0MSAyODMsMzE0IDI2MCwyOTggMjg4LDI5OCIvPjwvc3ZnPg==)]()
+[![简体中文](https://img.shields.io/badge/简体中文-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cGF0aCBmaWxsPSIjZGUyOTEwIiBkPSJNMCAwaDkwMHY2MDBIMHoiLz48cG9seWdvbiBmaWxsPSIjZmZkZTAwIiBwb2ludHM9IjE1MCw1MCAxNzgsMTM1IDI2OCwxMzUgMTk1LDE4OCAyMjMsMjczIDE1MCwyMjAgNzcsMjczIDEwNSwxODggMzIsMTM1IDEyMiwxMzUiLz48cG9seWdvbiBmaWxsPSIjZmZkZTAwIiBwb2ludHM9IjMwMCw1MCAzMDYsNzggMzM0LDc4IDMxMSw5NCAzMjAsMTIxIDI5NywxMDQgMjc0LDEyMSAyODMsOTQgMjYwLDc4IDI4OCw3OCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzYwLDExMCAzNjYsMTM4IDM5NCwxMzggMzcxLDE1NCAzODAsMTgxIDM1NywxNjQgMzM0LDE4MSAzNDMsMTU0IDMyMCwxMzggMzQ4LDEzOCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzYwLDIxMCAzNjYsMjM4IDM5NCwyMzggMzcxLDI1NCAzODAsMjgxIDM1NywyNjQgMzM0LDI4MSAzNDMsMjU0IDMyMCwyMzggMzQ4LDIzOCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzAwLDI3MCAzMDYsMjk4IDMzNCwyOTggMzExLDMxNCAzMjAsMzQxIDI5NywzMjQgMjc0LDM0MSAyODMsMzE0IDI2MCwyOTggMjg4LDI5OCIvPjwvc3ZnPg==)](./README.md)
 [![English](https://img.shields.io/badge/English-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NDEwIDM5MDAiPjxyZWN0IHdpZHRoPSI3NDEwIiBoZWlnaHQ9IjM5MDAiIGZpbGw9IiNiMjIyMzQiLz48cGF0aCBkPSJNMCA0NTBoNzQxME0wIDEwNTBoNzQxME0wIDE2NTBoNzQxME0wIDIyNTBoNzQxME0wIDI4NTBoNzQxME0wIDM0NTBoNzQxMCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMwMCIvPjxyZWN0IHdpZHRoPSIyOTY0IiBoZWlnaHQ9IjIxMDAiIGZpbGw9IiMzYzNiNmUiLz48L3N2Zz4=)](./README_EN.md)
 [![繁體中文](https://img.shields.io/badge/繁體中文-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2RlMjkxMCIvPjxnIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ1MCAzMDApIj48cGF0aCBkPSJNMDAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6Ii8+PHBhdGggZD0iTTAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6IiB0cmFuc2Zvcm09InJvdGF0ZSg3MikiLz48cGF0aCBkPSJNMDAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6IiB0cmFuc2Zvcm09InJvdGF0ZSgxNDQpIi8+PHBhdGggZD0iTTAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6IiB0cmFuc2Zvcm09InJvdGF0ZSgyMTYpIi8+PHBhdGggZD0iTTAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6IiB0cmFuc2Zvcm09InJvdGF0ZSgyODgpIi8+PC9nPjwvc3ZnPg==)](./README_ZH_TW.md)
 [![日本語](https://img.shields.io/badge/日本語-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjQ1MCIgY3k9IjMwMCIgcj0iMTgwIiBmaWxsPSIjYmMwMDJkIi8+PC9zdmc+)](./README_JP.md)
-[![Français](https://img.shields.io/badge/Français-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iIzAwMjY1NCIvPjxyZWN0IHg9IjMwMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI2MDAiIHdpZHRoPSIzMDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjY2UxMTI2Ii8+PC9zdmc+)](./README_FR.md)
+[![Français](https://img.shields.io/badge/Actuel-Français-0969da?labelColor=181717&style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iIzAwMjY1NCIvPjxyZWN0IHg9IjMwMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI2MDAiIHdpZHRoPSIzMDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjY2UxMTI2Ii8+PC9zdmc+)]()
 [![Deutsch](https://img.shields.io/badge/Deutsch-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1IDMiPjxyZWN0IHdpZHRoPSI1IiBoZWlnaHQ9IjEiIHk9IjAiIGZpbGw9IiMwMDAiLz48cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxIiB5PSIxIiBmaWxsPSIjZDAwIi8+PHJlY3Qgd2lkdGg9IjUiIGhlaWdodD0iMSIgeT0iMiIgZmlsbD0iI2ZmY2UwMCIvPjwvc3ZnPg==)](./README_DE.md)
 
 </div>
 
 ---
 
-## 🚀 关于我
+## 🚀 À propos de moi
 
 <table>
 <tr>
 <td width="60%">
 
 ```javascript
-// 🎮 程序员の自我修养
+// 🎮 Présentation du développeur
 const BYWled = {
-  代号: "BYWled",
-  身份: "全栈打工人 💻",
+  pseudo: "BYWled",
+  role: "Développeur Full-Stack 💻",
 
-  技能树: {
-    前端: ["Vue3 ⚡", "React ⚛️", "TypeScript 📘"],
-    后端: ["Node.js 🟢", "Python 🐍"],
-    其他: ["Git 📦", "Docker 🐳", "Linux 🐧"],
+  competences: {
+    frontend: ["Vue3 ⚡", "React ⚛️", "TypeScript 📘"],
+    backend: ["Node.js 🟢", "Python 🐍"],
+    outils: ["Git 📦", "Docker 🐳", "Linux 🐧"],
   },
 
-  日常: ["写代码 ✍️", "修Bug 🔧", "摸鱼 🐟", "喝咖啡 ☕"],
+  quotidien: ["Écrire du code ✍️", "Corriger des bugs 🔧", "Pauser 🐟", "Boire du café ☕"],
 
-  状态: {
-    当前: "在线搬砖中...",
-    Bug数量: "只要我不看，它就不存在",
-    头发: "还在，暂时还在",
+  statut: {
+    actuel: "En ligne, au travail...",
+    bugs: "Si je ne les vois pas, ils n'existent pas",
+    cheveux: "Encore là, pour l'instant",
   },
 
-  口头禅: "这个需求很简单，怎么实现我不管",
-  座右铭: "代码能跑就不要动",
-  人生目标: "早日实现财务自由，然后继续写代码",
+  devise: "Ce besoin est simple, je ne me préoccupe pas de l'implémentation",
+  motto: "Si ça marche, n'y touche pas",
+  objectif: "Atteindre la liberté financière et continuer à coder",
 };
 ```
 
@@ -60,22 +60,22 @@ const BYWled = {
 
 <div align="center">
 
-### 🎯 快速导航
+### 🎯 Navigation rapide
 
-<a href="#-项目展示">
-  <img src="https://img.shields.io/badge/🏆_项目展示-1f6feb?style=for-the-badge&logo=github&logoColor=white" />
+<a href="#-projets">
+  <img src="https://img.shields.io/badge/🏆_Projets-1f6feb?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 <br/>
-<a href="#-技术栈">
-  <img src="https://img.shields.io/badge/🛠️_技术栈-238636?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<a href="#-stack-technique">
+  <img src="https://img.shields.io/badge/🛠️_Stack_Technique-238636?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 </a>
 <br/>
-<a href="#-github-统计">
-  <img src="https://img.shields.io/badge/📊_GitHub统计-8957e5?style=for-the-badge&logo=github&logoColor=white" />
+<a href="#-statistiques-github">
+  <img src="https://img.shields.io/badge/📊_Stats_GitHub-8957e5?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 <br/>
-<a href="#-联系方式">
-  <img src="https://img.shields.io/badge/📫_联系方式-f0883e?style=for-the-badge&logo=telegram&logoColor=white" />
+<a href="#-contact">
+  <img src="https://img.shields.io/badge/📫_Contact-f0883e?style=for-the-badge&logo=telegram&logoColor=white" />
 </a>
 
 </div>
@@ -86,10 +86,10 @@ const BYWled = {
 
 ---
 
-## 🛠️ 技术栈
+## 🛠️ Stack Technique
 
 <details open>
-<summary><b>🖥️ 前端开发</b> <i>(点击展开/收起)</i></summary>
+<summary><b>🖥️ Développement Frontend</b> <i>(cliquer pour développer/réduire)</i></summary>
 <br/>
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
@@ -107,7 +107,7 @@ const BYWled = {
 </details>
 
 <details>
-<summary><b>⚙️ 后端与工具</b> <i>(点击展开/收起)</i></summary>
+<summary><b>⚙️ Backend & Outils</b> <i>(cliquer pour développer/réduire)</i></summary>
 <br/>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -123,27 +123,27 @@ const BYWled = {
 
 ---
 
-## 🏆 项目展示
+## 🏆 Projets
 
-### 🎨 无渽手作 `小程序`
+### 🎨 Wuzai Artisanat `Mini Programme`
 
 <table>
 <tr>
 <td width="60%">
 
-> 面向手工艺电商的一站式管理系统，包含B端后台与C端用户小程序两端协同
+> Système de gestion tout-en-un pour l'e-commerce artisanat, avec backend B2C et mini programme consommateur
 
 <br/>
 
-**🔥 核心功能**
+**🔥 Fonctionnalités principales**
 
-| 模块 | 功能                            | 状态 |
-| :--: | :------------------------------ | :--: |
-|  📦  | 物料管理 - 原材料入库/出库/盘点 |  ✅  |
-|  📋  | 订单管理 - 全流程订单跟踪       |  ✅  |
-|  🏭  | 生产管理 - 生产计划与进度追踪   |  ✅  |
-|  🚚  | 成品发货 - 运单打印与物流对接   |  ✅  |
-|  🏪  | 门店分销 - 多门店库存与分销管理 |  ✅  |
+| Module | Fonction | Statut |
+| :--: | :--- | :--: |
+| 📦 | Gestion des matériaux - Entrée/Sortie/Inventaire | ✅ |
+| 📋 | Gestion des commandes - Suivi complet | ✅ |
+| 🏭 | Gestion de production - Planification & Suivi | ✅ |
+| 🚚 | Expédition - Impression & Logistique | ✅ |
+| 🏪 | Distribution magasin - Multi-magasins | ✅ |
 
 <br/>
 
@@ -152,28 +152,28 @@ const BYWled = {
 
 <div align="center">
 
-**技术架构**
+**Architecture**
 
 ```
 ┌─────────────────┐
-│   C端小程序      │
-│   (消费者)       │
+│  Mini Programme  │
+│  (Consommateur)  │
 └────────┬────────┘
          │ API
 ┌────────▼────────┐
-│   统一网关层     │
-│   (鉴权/限流)    │
+│  Couche Passerelle│
+│  (Auth/Limite)   │
 └────────┬────────┘
          │
 ┌────────▼────────┐
-│   B端管理后台    │
-│   (Vue3+Element) │
+│  Backend Admin   │
+│  (Vue3+Element)  │
 └─────────────────┘
 ```
 
 <br/>
 
-**技术栈**
+**Stack technique**
 
 ![Vue3](https://img.shields.io/badge/Vue3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
@@ -190,7 +190,7 @@ const BYWled = {
 
 ---
 
-### 🖥️ React 管理系统 `Demo`
+### 🖥️ Système Admin React `Demo`
 
 <table>
 <tr>
@@ -198,14 +198,14 @@ const BYWled = {
 
 <div align="center">
 
-**系统架构**
+**Architecture système**
 
 ```
 ┌─────────────────┐
 │   React SPA     │
-│   (前端应用)     │
+│   (Frontend)    │
 ├─────────────────┤
-│   Redux状态管理  │
+│   Redux State   │
 │   React Router  │
 │   Ant Design    │
 └────────┬────────┘
@@ -218,7 +218,7 @@ const BYWled = {
 
 <br/>
 
-**技术栈**
+**Stack technique**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
@@ -229,30 +229,30 @@ const BYWled = {
 </td>
 <td width="60%">
 
-> 基于 React 的现代化后台管理系统 Demo
+> Démo de système d'administration moderne basé sur React
 
 <br/>
 
-**✨ 功能特性**
+**✨ Fonctionnalités**
 
-- 🎨 **现代化UI** - 基于 Ant Design 组件库
-- 📊 **数据可视化** - 丰富的图表与仪表盘
-- 🔐 **权限管理** - 完善的RBAC权限控制
-- 📱 **响应式设计** - 完美适配各种屏幕尺寸
-- 🚀 **高性能** - 代码分割与懒加载优化
+- 🎨 **UI Moderne** - Basé sur Ant Design
+- 📊 **Visualisation** - Riches tableaux de bord
+- 🔐 **Gestion des accès** - Contrôle RBAC complet
+- 📱 **Responsive** - Adapté à tous les écrans
+- 🚀 **Performance** - Code splitting & lazy loading
 
 <br/>
 
-**📁 项目结构**
+**📁 Structure du projet**
 
 ```
 admin-system/
 ├── src/
-│   ├── components/     # 公共组件
-│   ├── pages/          # 页面组件
-│   ├── store/          # Redux状态
-│   ├── utils/          # 工具函数
-│   └── api/            # 接口定义
+│   ├── components/     # Composants partagés
+│   ├── pages/          # Pages
+│   ├── store/          # État Redux
+│   ├── utils/          # Utilitaires
+│   └── api/            # Définitions API
 ├── public/
 └── package.json
 ```
@@ -260,7 +260,7 @@ admin-system/
 <br/>
 
 <a href="https://github.com/BYWled/admin-system">
-  <img src="https://img.shields.io/badge/📦_查看源码-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/📦_Voir_le_code-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </td>
@@ -269,7 +269,7 @@ admin-system/
 
 ---
 
-### 🔌 Koishi 插件生态
+### 🔌 Écosystème Koishi Plugins
 
 <div align="center">
 
@@ -277,42 +277,42 @@ admin-system/
 <tr>
 <td align="center" width="33%">
 
-**💹 货币交易所**
+**💹 Bourse Monétaire**
 
-[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bourse)
+[![Repo](https://img.shields.io/badge/Voir_le_dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bourse)
 
-为 Koishi 提供基于 monetary 通用货币系统的股票交易所功能
+Bourse d'échanges pour Koishi basée sur le système monétaire
 
-`📈 实时行情` `💰 虚拟交易` `📊 K线图表`
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-</td>
-<td align="center" width="33%">
-
-**🏦 货币银行**
-
-[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bank)
-
-为 monetary 货币系统提供银行相关服务
-
-`💳 存取款` `📊 账单` `🔒 安全`
+`📈 Cours en direct` `💰 Trading virtuel` `📊 Graphiques K`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 </td>
 <td align="center" width="33%">
 
-**🎯 货币任务**
+**🏦 Banque Monétaire**
 
-[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-mission)
+[![Repo](https://img.shields.io/badge/Voir_le_dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bank)
 
-为 monetary 货币系统提供用户任务功能
+Services bancaires pour le système monétaire
 
-`✅ 任务系统` `🏆 成就` `📝 日常`
+`💳 Dépôt/Retrait` `📊 Facturation` `🔒 Sécurité`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![已归档](https://img.shields.io/badge/已归档-555555?style=flat-square)
+
+</td>
+<td align="center" width="33%">
+
+**🎯 Missions Monétaires**
+
+[![Repo](https://img.shields.io/badge/Voir_le_dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-mission)
+
+Système de missions utilisateur
+
+`✅ Missions` `🏆 Succès` `📝 Quotidien`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Archived](https://img.shields.io/badge/Archived-555555?style=flat-square)
 
 </td>
 </tr>
@@ -322,45 +322,45 @@ admin-system/
 
 ---
 
-### 🛠️ 更多项目
+### 🛠️ Plus de projets
 
 <details>
-<summary><b>📈 WLED 状态监控</b> - 运行时间和状态页面</summary>
+<summary><b>📈 WLED Status</b> - Monitoring et page de statut</summary>
 <br/>
 
 > Uptime monitor and status page, powered by @upptime
 
-- 🟢 实时监控服务状态
-- 📊 记录响应时间与可用性
-- 🔔 异常自动告警通知
+- 🟢 Surveillance en temps réel
+- 📊 Temps de réponse & disponibilité
+- 🔔 Alertes automatiques
 
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>🎨 个人作品集</b> - 个人门户主页</summary>
+<summary><b>🎨 Portfolio</b> - Page personnelle</summary>
 <br/>
 
-> 个人门户主页，展示项目经历与技能
+> Page personnelle présentant projets et compétences
 
-- 💼 专业作品展示
-- 🌟 现代设计风格
-- 📱 完全响应式布局
+- 💼 Présentation professionnelle
+- 🌟 Design moderne
+- 📱 Entièrement responsive
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
 
 <details>
-<summary><b>🛒 乐购商城</b> - 电商商城 Demo</summary>
+<summary><b>🛒 Lego Store</b> - Démo e-commerce</summary>
 <br/>
 
-> 乐购商城 Demo，演示电商核心功能
+> Démo de boutique e-commerce avec fonctionnalités core
 
-- 🛍️ 商品浏览与搜索
-- 🛒 购物车与结算
-- 📦 订单管理
+- 🛍️ Navigation & recherche produits
+- 🛒 Panier & paiement
+- 📦 Gestion des commandes
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
@@ -368,21 +368,21 @@ admin-system/
 
 ---
 
-## 📊 GitHub 统计
+## 📊 Statistiques GitHub
 
 <div align="center">
 
-<!-- GitHub 贡献折线图 -->
+<!-- Graphique de contributions GitHub -->
 
 <br/>
 
-<!-- GitHub 贡献日历热力图 -->
+<!-- Calendrier de contributions -->
 <img src="https://ghchart.rshah.org/bywled" alt="BYWled's GitHub Contribution Chart" width="80%" />
 
 <br/>
 <br/>
 
-<!-- 基础统计徽章 -->
+<!-- Badges de statistiques -->
 
 ![GitHub Stars](https://img.shields.io/github/stars/BYWled?style=social)
 ![GitHub Followers](https://img.shields.io/github/followers/BYWled?style=social)
@@ -392,33 +392,33 @@ admin-system/
 
 <div align="center">
 
-<!-- 使用 shields.io 构建的统计面板 -->
+<!-- Panneau de statistiques shields.io -->
 <table>
 <tr>
 <td align="center">
 
-**📦 仓库总数**
+**📦 Dépôts**
 
 ![Repos](https://img.shields.io/badge/13-238636?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">
 
-**⭐ 总星标数**
+**⭐ Étoiles**
 
 ![Stars](https://img.shields.io/badge/2-F0883E?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">
 
-**🍴 总 Fork 数**
+**🍴 Forks**
 
 ![Forks](https://img.shields.io/badge/0-1F6FEB?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">
 
-**👥 关注者**
+**👥 Abonnés**
 
 ![Followers](https://img.shields.io/badge/0-8957E5?style=flat-square&logo=github&logoColor=white)
 
@@ -430,24 +430,24 @@ admin-system/
 
 ---
 
-## 🎯 当前状态
+## 🎯 Statut Actuel
 
 <table>
 <tr>
 <td width="50%">
 
-**🔥 编码状态**
+**🔥 Activité de codage**
 
-- 🔭 正在捣鼓 **Koishi 插件生态**
-- 🌱 正在研究 **数字孪生技术**
-- 👯 寻找 **开源项目** 合作机会
-- 💬 欢迎交流 **TypeScript/Vue/Koishi**
-- ⚡ 能把城市规划变成数字体验
+- 🔭 Travaille sur **l'écosystème Koishi**
+- 🌱 Explore les **jumeaux numériques**
+- 👯 Cherche des **collaborations OSS**
+- 💬 Questions sur **TypeScript/Vue/Koishi**
+- ⚡ Transformer la planification urbaine en expériences digitales
 
 </td>
 <td width="50%">
 
-**📊 技能分布**
+**📊 Répartition des compétences**
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-25%25-4FC08D?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-25%25-3178C6?style=flat-square)
@@ -462,7 +462,7 @@ admin-system/
 
 ---
 
-## 📫 联系方式
+## 📫 Contact
 
 <div align="center">
 
@@ -475,9 +475,9 @@ admin-system/
 
 <div align="center">
 
-### 💖 支持一下
+### 💖 Soutenir
 
-如果我的项目对你有帮助，点个 ⭐️ 支持一下呗~
+Si mes projets vous sont utiles, n'hésitez pas à mettre une ⭐️
 
 <br/>
 
@@ -487,6 +487,10 @@ admin-system/
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=8B949E&center=true&vCenter=true&width=450&height=50&lines=%E4%BB%A3%E7%A0%81%E6%98%AF%E8%AF%97%EF%BC%8C%E6%AF%8F%E4%B8%80%E6%AC%A1%E6%8F%90%E4%BA%A4%E9%83%BD%E5%9C%A8%E8%AE%B2%E8%BF%B0%E4%B8%80%E4%B8%AA%E6%95%85%E4%BA%8B;虽然大多数时候，故事的结局都是——又一个+Bug+🐛)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=8B949E&center=true&vCenter=true&width=500&height=50&lines=Le+code+est+de+la+po%C3%A9sie;Chaque+commit+raconte+une+histoire;M%C3%AAme+si+la+plupart+finissent+par+un+bug+%F0%9F%90%9B)](https://git.io/typing-svg)
+
+<br/>
+
+<sub><sup style="font-size:0.7em">📝 Cette traduction a été réalisée avec l'aide de l'IA. Les informations exprimées peuvent ne pas être entièrement exactes. En cas d'ambiguïté ou d'erreur, n'hésitez pas à [créer une Issue](https://github.com/BYWled/BYWled/issues/new). Merci de votre compréhension !</sup></sub>
 
 </div>

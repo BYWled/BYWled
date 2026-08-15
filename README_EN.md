@@ -9,11 +9,15 @@
 [![GitHub followers](https://img.shields.io/github/followers/BYWled?style=for-the-badge&logo=github&label=Followers&color=1f6feb)](https://github.com/BYWled)
 [![GitHub stars](https://img.shields.io/github/stars/BYWled?style=for-the-badge&logo=github&label=Stars&color=f0883e)](https://github.com/BYWled)
 [![Profile views](https://komarev.com/ghpvc/?username=BYWled&color=blueviolet&style=for-the-badge&label=Profile+Views)](https://github.com/BYWled)
-[![System Status](https://img.shields.io/badge/System_Status-Online-00E676?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/BYWled)
 
 <br/>
 
-[![🇨🇳 中文版](https://img.shields.io/badge/中文版-181717?style=for-the-badge&logo=googletranslate&logoColor=white)](./README.md)
+[![简体中文](https://img.shields.io/badge/简体中文-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cGF0aCBmaWxsPSIjZGUyOTEwIiBkPSJNMCAwaDkwMHY2MDBIMHoiLz48cG9seWdvbiBmaWxsPSIjZmZkZTAwIiBwb2ludHM9IjE1MCw1MCAxNzgsMTM1IDI2OCwxMzUgMTk1LDE4OCAyMjMsMjczIDE1MCwyMjAgNzcsMjczIDEwNSwxODggMzIsMTM1IDEyMiwxMzUiLz48cG9seWdvbiBmaWxsPSIjZmZkZTAwIiBwb2ludHM9IjMwMCw1MCAzMDYsNzggMzM0LDc4IDMxMSw5NCAzMjAsMTIxIDI5NywxMDQgMjc0LDEyMSAyODMsOTQgMjYwLDc4IDI4OCw3OCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzYwLDExMCAzNjYsMTM4IDM5NCwxMzggMzcxLDE1NCAzODAsMTgxIDM1NywxNjQgMzM0LDE4MSAzNDMsMTU0IDMyMCwxMzggMzQ4LDEzOCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzYwLDIxMCAzNjYsMjM4IDM5NCwyMzggMzcxLDI1NCAzODAsMjgxIDM1NywyNjQgMzM0LDI4MSAzNDMsMjU0IDMyMCwyMzggMzQ4LDIzOCIvPjxwb2x5Z29uIGZpbGw9IiNmZmRlMDAiIHBvaW50cz0iMzAwLDI3MCAzMDYsMjk4IDMzNCwyOTggMzExLDMxNCAzMjAsMzQxIDI5NywzMjQgMjc0LDM0MSAyODMsMzE0IDI2MCwyOTggMjg4LDI5OCIvPjwvc3ZnPg==)](./README.md)
+[![English](https://img.shields.io/badge/Current-English-0969da?labelColor=181717&style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NDEwIDM5MDAiPjxyZWN0IHdpZHRoPSI3NDEwIiBoZWlnaHQ9IjM5MDAiIGZpbGw9IiNiMjIyMzQiLz48cGF0aCBkPSJNMCA0NTBoNzQxME0wIDEwNTBoNzQxME0wIDE2NTBoNzQxME0wIDIyNTBoNzQxME0wIDI4NTBoNzQxME0wIDM0NTBoNzQxMCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMwMCIvPjxyZWN0IHdpZHRoPSIyOTY0IiBoZWlnaHQ9IjIxMDAiIGZpbGw9IiMzYzNiNmUiLz48L3N2Zz4=)]()
+[![繁體中文](https://img.shields.io/badge/繁體中文-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2RlMjkxMCIvPjxnIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ1MCAzMDApIj48cGF0aCBkPSJNMDAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6Ii8+PHBhdGggZD0iTTAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6IiB0cmFuc2Zvcm09InJvdGF0ZSg3MikiLz48cGF0aCBkPSJNMDAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6IiB0cmFuc2Zvcm09InJvdGF0ZSgxNDQpIi8+PHBhdGggZD0iTTAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6IiB0cmFuc2Zvcm09InJvdGF0ZSgyMTYpIi8+PHBhdGggZD0iTTAgLTE0MGMxNSAzNSA0NSA2MCA3NSA3MC0yMC0zMC0yMC02NSAwLTk1LTI1IDUtNTUgMTItNzUgMjV6IiB0cmFuc2Zvcm09InJvdGF0ZSgyODgpIi8+PC9nPjwvc3ZnPg==)](./README_ZH_TW.md)
+[![日本語](https://img.shields.io/badge/日本語-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjQ1MCIgY3k9IjMwMCIgcj0iMTgwIiBmaWxsPSIjYmMwMDJkIi8+PC9zdmc+)](./README_JP.md)
+[![Français](https://img.shields.io/badge/Français-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iIzAwMjY1NCIvPjxyZWN0IHg9IjMwMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI2MDAiIHdpZHRoPSIzMDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjY2UxMTI2Ii8+PC9zdmc+)](./README_FR.md)
+[![Deutsch](https://img.shields.io/badge/Deutsch-181717?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1IDMiPjxyZWN0IHdpZHRoPSI1IiBoZWlnaHQ9IjEiIHk9IjAiIGZpbGw9IiMwMDAiLz48cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxIiB5PSIxIiBmaWxsPSIjZDAwIi8+PHJlY3Qgd2lkdGg9IjUiIGhlaWdodD0iMSIgeT0iMiIgZmlsbD0iI2ZmY2UwMCIvPjwvc3ZnPg==)](./README_DE.md)
 
 </div>
 
@@ -484,5 +488,9 @@ If you find my projects helpful, consider giving them a ⭐️
 ---
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=8B949E&center=true&vCenter=true&width=500&height=50&lines=Code+is+poetry%2C+and+every+commit+tells+a+story;Even+if+most+stories+end+with+%E2%80%94+yet+another+bug+%F0%9F%90%9B)](https://git.io/typing-svg)
+
+<br/>
+
+<sub><sup style="font-size:0.7em">📝 This translation was assisted by AI. The information expressed may not be fully accurate — if there are any ambiguities or errors, please feel free to [open an Issue](https://github.com/BYWled/BYWled/issues/new). We appreciate your understanding!</sup></sub>
 
 </div>
