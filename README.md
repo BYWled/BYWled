@@ -269,11 +269,195 @@ admin-system/
 
 ---
 
+### 🛠️ 伴莺的工具箱 · Ying Tools
+
+<table>
+<tr>
+<td width="60%">
+
+> 纯前端隐私优先的现代化文件工具箱，涵盖 36 种高频实用工具，所有处理均在浏览器本地由 WebAssembly 完成，**文件永不上传服务器**。
+
+<br/>
+
+**✨ 核心工具矩阵**
+
+| 类别 | 工具清单与特性 | 引擎 |
+| :--: | :------------- | :--: |
+| 🔄 **格式转换** | 图片全格式(AVIF/JXL/HEIC/WebP)、音视频、文档转 PDF | jSquash / ffmpeg |
+| 📑 **PDF 工具** | 合并、拆分、页面整理、本地压缩、水印加密、双向转换 | pdf-lib / qpdf |
+| 🎨 **媒体处理** | 图片编辑器、无损压缩、GIF 录制拆帧、音视频剪辑提取 | MozJPEG / OxiPNG |
+| 🔍 **智能工具** | 本地离线 OCR 文本识别、二维码生成与识别、文件哈希 | tesseract.js |
+
+<br/>
+
+**🔒 隐私与性能设计**
+- 🛡️ **100% 纯本地运行**：依托浏览器多核 WebAssembly 引擎，断网可用，敏感数据不出本地
+- ⚡ **跨源隔离多线程**：配置 COOP/COEP 解锁多线程算力，按需懒加载引擎
+
+<br/>
+
+<a href="https://tools.wled.top">
+  <img src="https://img.shields.io/badge/🌐_在线体验-tools.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/ying-of-tools">
+  <img src="https://img.shields.io/badge/📦_查看源码-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="40%">
+
+<div align="center">
+
+**系统架构**
+
+```
+┌───────────────────────────────┐
+│       伴莺的工具箱 SPA         │
+│   React 19 + Tailwind CSS v4  │
+├───────────────┬───────────────┤
+│   UI 交互层   │  Zustand 状态 │
+└───────┬───────┴───────┬───────┘
+        │ 本地按需加载  │
+┌───────▼───────────────▼───────┐
+│     WebAssembly 引擎层        │
+│  ffmpeg.wasm / jSquash        │
+│  pdf-lib / tesseract.js 等    │
+└───────────────────────────────┘
+  🔒 纯前端运行 · 数据 0 上传
+```
+
+<br/>
+
+**技术栈**
+
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🏙️ 主城新区数字化驾驶舱 · City
+
+<table>
+<tr>
+<td width="40%">
+
+<div align="center">
+
+**系统架构**
+
+```
+┌───────────────────────────────┐
+│   数字化大屏驾驶舱 (Next.js)   │
+│   React 19 + Ant Design 6     │
+├───────────────┬───────────────┤
+│ 高德地图 2.0  │ 数据可视化大屏│
+└───────┬───────┴───────┬───────┘
+        │ REST / Stream │
+┌───────▼───────────────▼───────┐
+│   Cloudflare Workers 服务端   │
+│  AI 规划助手 (Tool Calling)   │
+└───────────────────────────────┘
+```
+
+<br/>
+
+**技术栈**
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Ant Design 6](https://img.shields.io/badge/Ant_Design_6-0170FE?style=flat-square&logo=antdesign&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+</div>
+
+</td>
+<td width="60%">
+
+> 重庆主城新区城市规划建设管理数字化大屏系统，将宏观规划指标与微观空间地理信息融为一体的现代数据驾驶舱。
+
+<br/>
+
+**✨ 功能特性**
+- 🗺️ **高德地图深度集成** - 重庆主城区空间地理展示，支持区县下钻交互与动态图层切换
+- 🤖 **AI 城市规划助手** - 接入大模型并搭载 Tool Calling 工具调用，支持自然语言实时查询城市规划指标
+- 📊 **全屏数字驾驶舱** - 针对 16:9 / 4:3 比例自适应缩放，丰富的数据可视化图表与关键指标看板
+- 🛡️ **云原生与安全保障** - 部署于 Cloudflare Workers，集成 Turnstile 人机验证与敏感过滤机制
+
+<br/>
+
+<a href="https://city.wled.top">
+  <img src="https://img.shields.io/badge/🌐_在线体验-city.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/city">
+  <img src="https://img.shields.io/badge/📦_查看源码-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🔌 Koishi 插件生态
 
 <div align="center">
 
 <table>
+<tr>
+<td align="center" width="33%">
+
+**🎬 番剧 RSS 推送**
+
+[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-anime-rss)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-anime-rss?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-anime-rss)
+
+RSS 番剧订阅与流式下载推送，内存防爆与群文件智能分流
+
+`📺 番剧订阅` `⚡ 流式下载` `🛡️ 内存防爆`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+<td align="center" width="33%">
+
+**🚗 驾考答题联动**
+
+[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-driver-exam)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-driver-exam?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-driver-exam)
+
+接入真实科一/科四题库，去重缓存池，巡检禁言与货币悬赏
+
+`🚦 真实题库` `💰 货币悬赏` `⏱️ 豁免顺延`
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</td>
+<td align="center" width="33%">
+
+**💳 货币信用扩展**
+
+[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-extra)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-monetary-extra?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-monetary-extra)
+
+为 monetary 货币生态提供信用分评估与半圆环卡片渲染
+
+`📈 信用评级` `🖼️ 仪表盘卡片` `⚖️ 权重配置`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
 <tr>
 <td align="center" width="33%">
 
@@ -325,6 +509,23 @@ admin-system/
 ### 🛠️ 更多项目
 
 <details>
+<summary><b>🧊 伴莺的小窝小程序</b> - Hexo 博客微信小程序客户端</summary>
+<br/>
+
+> 基于 uni-app 与 Liquid Glass 设计语言构建的高颜值博客客户端
+
+- 🪟 **Liquid Glass 全沉浸 UI**：自研毛玻璃拟态卡片、棱镜色散边框与焦散微光
+- 🌊 **果冻弹性动力学**：点按卡片物理回弹与连带波及涟漪动画
+- 🧭 **自研 Liquid TabBar**：悬浮手势液态滑块底栏与触觉振动反馈
+- 🌓 **全景自适应**：明暗双主题自适应渲染，无缝映射 Hexo RESTful API
+
+[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/Ying-of-Me-mini)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![uni-app](https://img.shields.io/badge/uni--app-2B9939?style=flat-square&logo=dcloud&logoColor=white)
+
+</details>
+
+<details>
 <summary><b>📈 WLED 状态监控</b> - 运行时间和状态页面</summary>
 <br/>
 
@@ -334,6 +535,7 @@ admin-system/
 - 📊 记录响应时间与可用性
 - 🔔 异常自动告警通知
 
+[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/wled-status)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 </details>
@@ -348,6 +550,7 @@ admin-system/
 - 🌟 现代设计风格
 - 📱 完全响应式布局
 
+[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/BYWled-Portfolio)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
@@ -362,6 +565,7 @@ admin-system/
 - 🛒 购物车与结算
 - 📦 订单管理
 
+[![Repo](https://img.shields.io/badge/查看仓库-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/lego_store)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </details>
@@ -399,7 +603,7 @@ admin-system/
 
 **📦 仓库总数**
 
-![Repos](https://img.shields.io/badge/13-238636?style=flat-square&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/19-238636?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">

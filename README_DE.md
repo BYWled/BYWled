@@ -269,6 +269,146 @@ admin-system/
 
 ---
 
+### 🛠️ Ying Tools · Moderner Datei-Werkzeugkasten
+
+<table>
+<tr>
+<td width="60%">
+
+> Vollständig clientseitiger, datenschutzorientierter Werkzeugkasten mit 36 unverzichtbaren Datei-Tools. Alle Operationen laufen lokal im Browser via WebAssembly — **Dateien werden niemals auf einen Server geladen**.
+
+<br/>
+
+**✨ Kernwerkzeug-Matrix**
+
+| Kategorie | Werkzeuge und Features | Engine |
+| :--: | :--------------------- | :--: |
+| 🔄 **Formatkonvertierung** | Alle Bildformate (AVIF/JXL/HEIC/WebP), Audio/Video, Dokumente zu PDF | jSquash / ffmpeg |
+| 📑 **PDF-Werkzeuge** | Zusammenführen, Teilen, Seiten sortieren, lokal komprimieren, Wasserzeichen/Verschlüsselung | pdf-lib / qpdf |
+| 🎨 **Medienverarbeitung** | Bildeditor, verlustfreie Kompression, GIF-Maker/Zerlegung, Audio/Video-Schnitt | MozJPEG / OxiPNG |
+| 🔍 **Smarte Tools** | Offline-OCR Texterkennung, QR-Code Erstellung/Scan, Datei-Hash | tesseract.js |
+
+<br/>
+
+**🔒 Datenschutz- & Performance-Architektur**
+- 🛡️ **100% Lokale Ausführung**: Basierend auf Multi-Thread-WebAssembly-Engines, voll offline-fähig, null Datenabfluss
+- ⚡ **Cross-Origin-Isolation**: Konfigurierte COOP/COEP-Header für maximale Multi-Threading-Leistung
+
+<br/>
+
+<a href="https://tools.wled.top">
+  <img src="https://img.shields.io/badge/🌐_Live_Demo-tools.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/ying-of-tools">
+  <img src="https://img.shields.io/badge/📦_Quellcode_ansehen-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="40%">
+
+<div align="center">
+
+**Systemarchitektur**
+
+```
+┌───────────────────────────────┐
+│        Ying Tools SPA         │
+│   React 19 + Tailwind CSS v4  │
+├───────────────┬───────────────┤
+│    UI-Ebene   │ Zustand-State │
+└───────┬───────┴───────┬───────┘
+        │ On-Demand Ladung
+┌───────▼───────────────▼───────┐
+│     WebAssembly Engines       │
+│  ffmpeg.wasm / jSquash        │
+│  pdf-lib / tesseract.js u.a.  │
+└───────────────────────────────┘
+  🔒 100% Clientseitig · 0 Uploads
+```
+
+<br/>
+
+**Tech Stack**
+
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🏙️ Digitales Cockpit für Stadtplanung · City
+
+<table>
+<tr>
+<td width="40%">
+
+<div align="center">
+
+**Systemarchitektur**
+
+```
+┌───────────────────────────────┐
+│ Digitales Großbildschirm-     │
+│ Cockpit (React 19 + AntD 6)   │
+├───────────────┬───────────────┤
+│ AMap 2.0 API  │ Daten-Dashboard
+└───────┬───────┴───────┬───────┘
+        │ REST / Stream │
+┌───────▼───────────────▼───────┐
+│  Cloudflare Workers Server    │
+│  KI-Planungsassistent         │
+└───────────────────────────────┘
+```
+
+<br/>
+
+**Tech Stack**
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Ant Design 6](https://img.shields.io/badge/Ant_Design_6-0170FE?style=flat-square&logo=antdesign&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+</div>
+
+</td>
+<td width="60%">
+
+> Digitales Großbildschirmsystem für Stadtplanung und Bauverwaltung des neuen Stadtbezirks Chongqing, das Makro-Planungsindikatoren mit Mikro-Geodaten zu einem modernen Daten-Cockpit verbindet.
+
+<br/>
+
+**✨ Features**
+- 🗺️ **Tiefgehende AMap 2.0 Integration** - Räumliche Geodaten-Visualisierung der Hauptbezirke von Chongqing, interaktiver Drill-down und Ebenenumschaltung
+- 🤖 **KI-Stadtplanungsassistent** - Großes Sprachmodell mit Tool Calling zur Abfrage von Stadtplanungsindikatoren in natürlicher Sprache
+- 📊 **Vollbild-Digital-Cockpit** - Reaktionsschnelle 16:9 / 4:3 Skalierung mit reichhaltigen Diagrammen und Kennzahlen-Dashboards
+- 🛡️ **Cloud-Native & Sicherheit** - Auf Cloudflare Workers bereitgestellt, integrierte Turnstile Bot-Prüfung und Filtersysteme
+
+<br/>
+
+<a href="https://city.wled.top">
+  <img src="https://img.shields.io/badge/🌐_Live_Demo-city.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/city">
+  <img src="https://img.shields.io/badge/📦_Quellcode_ansehen-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🔌 Koishi Plugin Ökosystem
 
 <div align="center">
@@ -277,42 +417,86 @@ admin-system/
 <tr>
 <td align="center" width="33%">
 
-**💹 Monetary Börse**
+**🎬 Anime-RSS Streaming**
+
+[![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-anime-rss)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-anime-rss?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-anime-rss)
+
+RSS-Anime-Abonnement und Torrent-Streaming-Push mit Zero-Heap RAM-Schutz und intelligentem Gruppenrouting
+
+`📺 Anime-Abo` `⚡ Torrent-Stream` `🛡️ RAM-Schutz`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+<td align="center" width="33%">
+
+**🚗 Führerschein & Ökonomie**
+
+[![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-driver-exam)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-driver-exam?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-driver-exam)
+
+Echte Führerschein-Fragenbank mit Deduplizierungs-Cache, Mute-Inspektion und Währungsprämien
+
+`🚦 Original-Fragen` `💰 Währungsprämie` `⏱️ Fristverlängerung`
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</td>
+<td align="center" width="33%">
+
+**💳 Währungskredit-Erweiterung**
+
+[![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-extra)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-monetary-extra?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-monetary-extra)
+
+Kredit-Scoring-System für das Monetary-Ökosystem mit halbkreisförmigen Messgeräte-Karten über Puppeteer
+
+`📈 Bonitätsbewertung` `🖼️ Gauge-Karten` `⚖️ Gewichtung`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
+**💹 Währungsbörse**
 
 [![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bourse)
 
-Börsenfunktion für Koishi basierend auf dem Monetary-System
+Bietet Koishi Aktienbörsen-Funktionalität basierend auf dem monetary Währungssystem
 
-`📈 Live-Kurse` `💰 Virtueller Handel` `📊 K-Charts`
+`📈 Live-Kurse` `💰 Virtueller Handel` `📊 Candlesticks`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 </td>
 <td align="center" width="33%">
 
-**🏦 Monetary Bank**
+**🏦 Währungsbank**
 
 [![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bank)
 
-Bankdienste für das Monetary-System
+Bietet Bankdienstleistungen für das monetary Währungssystem
 
-`💳 Ein-/Auszahlung` `📊 Abrechnung` `🔒 Sicherheit`
+`💳 Ein-/Auszahlung` `📊 Abrechnungen` `🔒 Sicherheit`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 </td>
 <td align="center" width="33%">
 
-**🎯 Monetary Mission**
+**🎯 Währungsaufgaben**
 
 [![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-mission)
 
-Benutzeraufgaben-System
+Bietet Aufgaben- und Questfunktionen für das monetary-Plugin
 
 `✅ Aufgaben` `🏆 Erfolge` `📝 Täglich`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Archived](https://img.shields.io/badge/Archived-555555?style=flat-square)
+![Archiviert](https://img.shields.io/badge/Archiviert-555555?style=flat-square)
 
 </td>
 </tr>
@@ -325,43 +509,63 @@ Benutzeraufgaben-System
 ### 🛠️ Weitere Projekte
 
 <details>
-<summary><b>📈 WLED Status</b> - Uptime-Monitoring & Statusseite</summary>
+<summary><b>🧊 Ying Blog Mini-Programm</b> - WeChat Mini-Programm Hexo-Client</summary>
+<br/>
+
+> Ästhetischer Blog-Client entwickelt mit uni-app und iOS 26 Liquid Glass Designsprache
+
+- 🪟 **Liquid Glass Immersive UI**: Maßgeschneiderte Glassmorphism-Karten, Prismen-Kanten & Kaustik-Licht
+- 🌊 **Jelly Spring Dynamik**: Physikalisches Karten-Feedback und konzentrische Wellen-Animationen
+- 🧭 **Liquid TabBar**: Schwebende Gesten-Flüssigkeits-Leiste mit taktilem Vibrationsfeedback
+- 🌓 **Vollständige Anpassung**: Nahtlose Umschaltung zwischen Hell- und Dunkelmodus, angebunden an Hexo RESTful API
+
+[![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/Ying-of-Me-mini)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![uni-app](https://img.shields.io/badge/uni--app-2B9939?style=flat-square&logo=dcloud&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>📈 WLED Statusüberwachung</b> - Betriebszeit & Statusseite</summary>
 <br/>
 
 > Uptime monitor and status page, powered by @upptime
 
-- 🟢 Echtzeit-Serviceüberwachung
-- 📊 Antwortzeiten & Verfügbarkeit
-- 🔔 Automatische Alarme
+- 🟢 Echtzeit-Dienstüberwachung
+- 📊 Aufzeichnung von Reaktionszeit & Verfügbarkeit
+- 🔔 Automatische Benachrichtigung bei Vorfällen
 
+[![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/wled-status)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>🎨 Portfolio</b> - Persönliche Homepage</summary>
+<summary><b>🎨 Persönliches Portfolio</b> - Persönliche Portalseite</summary>
 <br/>
 
-> Persönliche Homepage mit Projekten und Skills
+> Persönliche Portalseite zur Präsentation von Projekten und Fähigkeiten
 
-- 💼 Professionelle Präsentation
-- 🌟 Modernes Design
-- 📱 Vollständig responsiv
+- 💼 Professionelle Projektpräsentation
+- 🌟 Moderne Designästhetik
+- 📱 Vollständig responsives Layout
 
+[![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/BYWled-Portfolio)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
 
 <details>
-<summary><b>🛒 Lego Store</b> - E-Commerce-Demo</summary>
+<summary><b>🛒 Lego Store</b> - E-Commerce Demo</summary>
 <br/>
 
-> E-Commerce-Demo mit Kernfunktionen
+> Lego Store Demo zur Demonstration wesentlicher Online-Shop-Abläufe
 
-- 🛍️ Produkte durchsuchen
+- 🛍️ Produktsuche & Stöbern
 - 🛒 Warenkorb & Checkout
-- 📦 Auftragsverwaltung
+- 📦 Bestellverwaltung
 
+[![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/lego_store)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </details>
@@ -399,7 +603,7 @@ Benutzeraufgaben-System
 
 **📦 Repositories**
 
-![Repos](https://img.shields.io/badge/13-238636?style=flat-square&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/19-238636?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">

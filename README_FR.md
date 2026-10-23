@@ -269,6 +269,146 @@ admin-system/
 
 ---
 
+### 🛠️ Ying Tools · Boîte à Outils Moderne
+
+<table>
+<tr>
+<td width="60%">
+
+> Boîte à outils de fichiers 100% côté client et axée sur la confidentialité : 36 utilitaires essentiels exécutés entièrement dans le navigateur via WebAssembly — **aucun fichier n'est téléversé**.
+
+<br/>
+
+**✨ Matrice des Outils**
+
+| Catégorie | Outils et Fonctionnalités | Moteur |
+| :--: | :------------------------ | :--: |
+| 🔄 **Conversion** | Tous formats d'image (AVIF/JXL/HEIC/WebP), audio/vidéo, conversion docs vers PDF | jSquash / ffmpeg |
+| 📑 **Outils PDF** | Fusionner, découper, organiser, compresser localement, filigrane/chiffrement | pdf-lib / qpdf |
+| 🎨 **Traitement Média** | Éditeur d'images, compression sans perte, créateur/découpeur GIF, extraction audio/vidéo | MozJPEG / OxiPNG |
+| 🔍 **Outils Intelligents**| Reconnaissance OCR hors-ligne, génération/lecture de QR codes, calcul de hachage | tesseract.js |
+
+<br/>
+
+**🔒 Confidentialité & Performance**
+- 🛡️ **Exécution 100% Locale** : Propulsé par des moteurs WebAssembly multi-thread, fonctionnel hors ligne, zéro fuite de données
+- ⚡ **Isolation Cross-Origin** : En-têtes COOP/COEP configurés pour débloquer la puissance du multi-threading
+
+<br/>
+
+<a href="https://tools.wled.top">
+  <img src="https://img.shields.io/badge/🌐_Démo_en_Ligne-tools.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/ying-of-tools">
+  <img src="https://img.shields.io/badge/📦_Code_Source-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="40%">
+
+<div align="center">
+
+**Architecture Système**
+
+```
+┌───────────────────────────────┐
+│        Ying Tools SPA         │
+│   React 19 + Tailwind CSS v4  │
+├───────────────┬───────────────┤
+│    Couche UI  │  État Zustand │
+└───────┬───────┴───────┬───────┘
+        │ Chargement à la demande
+┌───────▼───────────────▼───────┐
+│     Moteurs WebAssembly       │
+│  ffmpeg.wasm / jSquash        │
+│  pdf-lib / tesseract.js etc.  │
+└───────────────────────────────┘
+  🔒 100% Côté Client · 0 Téléversement
+```
+
+<br/>
+
+**Stack Technique**
+
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🏙️ Cockpit Numérique Urbain · City
+
+<table>
+<tr>
+<td width="40%">
+
+<div align="center">
+
+**Architecture Système**
+
+```
+┌───────────────────────────────┐
+│ Grand Écran Numérique (Next)  │
+│   React 19 + Ant Design 6     │
+├───────────────┬───────────────┤
+│ API AMap 2.0  │ Tableau de bord
+└───────┬───────┴───────┬───────┘
+        │ REST / Stream │
+┌───────▼───────────────▼───────┐
+│  Cloudflare Workers Serveur   │
+│  Assistant IA (Tool Calling)  │
+└───────────────────────────────┘
+```
+
+<br/>
+
+**Stack Technique**
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Ant Design 6](https://img.shields.io/badge/Ant_Design_6-0170FE?style=flat-square&logo=antdesign&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+</div>
+
+</td>
+<td width="60%">
+
+> Système de grand écran numérique pour la planification urbaine du nouveau district de Chongqing, unifiant indicateurs macro et géolocalisation spatiale micro.
+
+<br/>
+
+**✨ Fonctionnalités**
+- 🗺️ **Intégration AMap 2.0** - Visualisation géospatiale des districts principaux de Chongqing, interaction par zone et couches dynamiques
+- 🤖 **Assistant Planification IA** - LLM avec Tool Calling pour interroger en langage naturel les indicateurs d'urbanisme
+- 📊 **Cockpit Numérique Plein Écran** - Adaptation fluide aux ratios 16:9 / 4:3 avec graphiques riches et tableaux de bord d'indicateurs
+- 🛡️ **Cloud-Native & Sécurité** - Déployé sur Cloudflare Workers avec vérification anti-robot Turnstile et filtrage sécurisé
+
+<br/>
+
+<a href="https://city.wled.top">
+  <img src="https://img.shields.io/badge/🌐_Démo_en_Ligne-city.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/city">
+  <img src="https://img.shields.io/badge/📦_Code_Source-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🔌 Écosystème Koishi Plugins
 
 <div align="center">
@@ -277,13 +417,57 @@ admin-system/
 <tr>
 <td align="center" width="33%">
 
+**🎬 Diffusion RSS Anime**
+
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-anime-rss)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-anime-rss?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-anime-rss)
+
+Abonnement RSS et téléchargement streaming d'animes, rétention mémoire zéro (Zero-Heap) et routage intelligent
+
+`📺 Abonnements RSS` `⚡ Téléchargement Stream` `🛡️ Anti-fuite RAM`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+<td align="center" width="33%">
+
+**🚗 Permis & Économie**
+
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-driver-exam)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-driver-exam?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-driver-exam)
+
+Banque réelle de questions de permis de conduire, déduplication en cache, sanctions muettes et défis monétaires
+
+`🚦 Questions Réelles` `💰 Récompenses` `⏱️ Délai Prolongé`
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</td>
+<td align="center" width="33%">
+
+**💳 Extension de Crédit**
+
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-extra)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-monetary-extra?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-monetary-extra)
+
+Évaluation du score de crédit pour l'écosystème Monetary avec rendu de cartes de jauges via Puppeteer
+
+`📈 Score de Crédit` `🖼️ Carte Jauge` `⚖️ Poids Personnalisé`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
 **💹 Bourse Monétaire**
 
-[![Repo](https://img.shields.io/badge/Voir_le_dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bourse)
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bourse)
 
-Bourse d'échanges pour Koishi basée sur le système monétaire
+Offre à Koishi des fonctionnalités de bourse boursière basées sur le système monetary
 
-`📈 Cours en direct` `💰 Trading virtuel` `📊 Graphiques K`
+`📈 Cours en direct` `💰 Trading virtuel` `📊 Graphiques K-Line`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
@@ -292,11 +476,11 @@ Bourse d'échanges pour Koishi basée sur le système monétaire
 
 **🏦 Banque Monétaire**
 
-[![Repo](https://img.shields.io/badge/Voir_le_dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bank)
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bank)
 
-Services bancaires pour le système monétaire
+Fournit des services bancaires pour le système financier monetary
 
-`💳 Dépôt/Retrait` `📊 Facturation` `🔒 Sécurité`
+`💳 Dépôt/Retrait` `📊 Relevés` `🔒 Sécurité`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
@@ -305,14 +489,14 @@ Services bancaires pour le système monétaire
 
 **🎯 Missions Monétaires**
 
-[![Repo](https://img.shields.io/badge/Voir_le_dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-mission)
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-mission)
 
-Système de missions utilisateur
+Fournit des fonctionnalités de missions et tâches pour le plugin monetary
 
-`✅ Missions` `🏆 Succès` `📝 Quotidien`
+`✅ Tâches` `🏆 Succès` `📝 Quotidien`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Archived](https://img.shields.io/badge/Archived-555555?style=flat-square)
+![Archivé](https://img.shields.io/badge/Archiv%C3%A9-555555?style=flat-square)
 
 </td>
 </tr>
@@ -325,43 +509,63 @@ Système de missions utilisateur
 ### 🛠️ Plus de projets
 
 <details>
-<summary><b>📈 WLED Status</b> - Monitoring et page de statut</summary>
+<summary><b>🧊 Mini-Programme Blog Ying</b> - Client Hexo WeChat Mini Programme</summary>
+<br/>
+
+> Client de blog haute fidélité conçu avec uni-app et le langage visuel iOS 26 Liquid Glass
+
+- 🪟 **UI Immersive Liquid Glass** : Cartes glassmorphisme sur-mesure, bordures prismatiques et reflets caustiques
+- 🌊 **Dynamique Jelly Spring** : Rétroaction physique élastique et animations de vagues concentriques au toucher
+- 🧭 **Liquid TabBar** : Barre flottante avec curseur liquide gestuel et vibrations haptiques
+- 🌓 **Adaptation Complète** : Basculement fluide entre thèmes clair et sombre, relié à l'API RESTful Hexo
+
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/Ying-of-Me-mini)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![uni-app](https://img.shields.io/badge/uni--app-2B9939?style=flat-square&logo=dcloud&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>📈 Surveillance WLED</b> - Page de Disponibilité et Statut</summary>
 <br/>
 
 > Uptime monitor and status page, powered by @upptime
 
-- 🟢 Surveillance en temps réel
-- 📊 Temps de réponse & disponibilité
-- 🔔 Alertes automatiques
+- 🟢 Surveillance des services en temps réel
+- 📊 Suivi du temps de réponse et de disponibilité
+- 🔔 Alertes automatisées d'incidents
 
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/wled-status)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>🎨 Portfolio</b> - Page personnelle</summary>
+<summary><b>🎨 Portfolio Personnel</b> - Page Portail Personnelle</summary>
 <br/>
 
-> Page personnelle présentant projets et compétences
+> Page portail présentant projets, parcours et compétences
 
-- 💼 Présentation professionnelle
-- 🌟 Design moderne
-- 📱 Entièrement responsive
+- 💼 Vitrine de projets professionnels
+- 🌟 Esthétique de design moderne
+- 📱 Conception entièrement responsive
 
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/BYWled-Portfolio)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
 
 <details>
-<summary><b>🛒 Lego Store</b> - Démo e-commerce</summary>
+<summary><b>🛒 Magasin Lego</b> - Démo E-Commerce</summary>
 <br/>
 
-> Démo de boutique e-commerce avec fonctionnalités core
+> Démo de boutique en ligne démontrant les flux essentiels de commerce électronique
 
-- 🛍️ Navigation & recherche produits
-- 🛒 Panier & paiement
-- 📦 Gestion des commandes
+- 🛍️ Navigation et recherche de produits
+- 🛒 Panier d'achat et paiement
+- 📦 Suivi de commandes
 
+[![Repo](https://img.shields.io/badge/Voir_Dépôt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/lego_store)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </details>
@@ -399,7 +603,7 @@ Système de missions utilisateur
 
 **📦 Dépôts**
 
-![Repos](https://img.shields.io/badge/13-238636?style=flat-square&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/19-238636?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">

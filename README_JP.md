@@ -269,6 +269,146 @@ admin-system/
 
 ---
 
+### 🛠️ 伴鶯のツール箱 · Ying Tools
+
+<table>
+<tr>
+<td width="60%">
+
+> 完全クライアントサイドのプライバシー重視ファイルツールセット。36種類の高頻度実用ツールを搭載し、すべての処理をブラウザ内のWebAssemblyで完結。**ファイルはサーバーに一切アップロードされません**。
+
+<br/>
+
+**✨ コアツールマトリックス**
+
+| カテゴリ | ツール一覧と機能特性 | エンジン |
+| :--: | :------------------ | :--: |
+| 🔄 **フォーマット変換** | 全画像形式(AVIF/JXL/HEIC/WebP)、音声・動画、文書PDF変換 | jSquash / ffmpeg |
+| 📑 **PDF ツール** | 結合・分割・ページ整理・ローカル圧縮・透かし暗号化・相互変換 | pdf-lib / qpdf |
+| 🎨 **メディア処理** | 画像エディタ、ロスレス圧縮、GIF作成/フレーム分解、音声動画切り出し | MozJPEG / OxiPNG |
+| 🔍 **スマートツール** | 完全オフラインOCR文字認識、QRコード生成・読取、ファイルハッシュ | tesseract.js |
+
+<br/>
+
+**🔒 プライバシー＆パフォーマンス設計**
+- 🛡️ **100% ブラウザ内完結**：マルチスレッドWebAssemblyエンジンを活用、オフライン動作可能でデータ流出ゼロ
+- ⚡ **クロスオリジン分離**：COOP/COEPヘッダーを構成しマルチスレッド演算を開放、オンデマンド遅延読み込み
+
+<br/>
+
+<a href="https://tools.wled.top">
+  <img src="https://img.shields.io/badge/🌐_デモ体験-tools.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/ying-of-tools">
+  <img src="https://img.shields.io/badge/📦_ソース確認-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="40%">
+
+<div align="center">
+
+**システム構成**
+
+```
+┌───────────────────────────────┐
+│        Ying Tools SPA         │
+│   React 19 + Tailwind CSS v4  │
+├───────────────┬───────────────┤
+│    UI操作層   │ Zustand状態管理│
+└───────┬───────┴───────┬───────┘
+        │ オンデマンド読込│
+┌───────▼───────────────▼───────┐
+│     WebAssembly 実行層        │
+│  ffmpeg.wasm / jSquash        │
+│  pdf-lib / tesseract.js など  │
+└───────────────────────────────┘
+  🔒 完全ローカル処理 · アップロード0
+```
+
+<br/>
+
+**技術スタック**
+
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🏙️ 主城新区デジタルコックピット · City
+
+<table>
+<tr>
+<td width="40%">
+
+<div align="center">
+
+**システム構成**
+
+```
+┌───────────────────────────────┐
+│ 大画面デジタルコックピット    │
+│   React 19 + Ant Design 6     │
+├───────────────┬───────────────┤
+│ 高徳地図 2.0  │ データ可視化盤│
+└───────┬───────┴───────┬───────┘
+        │ REST / Stream │
+┌───────▼───────────────▼───────┐
+│  Cloudflare Workers サーバー  │
+│  AI都市計画 (Tool Calling)    │
+└───────────────────────────────┘
+```
+
+<br/>
+
+**技術スタック**
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Ant Design 6](https://img.shields.io/badge/Ant_Design_6-0170FE?style=flat-square&logo=antdesign&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+</div>
+
+</td>
+<td width="60%">
+
+> 重慶主城新区の都市計画・建設管理デジタル大型スクリーンシステム。マクロな計画指標とミクロな地理空間情報を融合した最新データコックピット。
+
+<br/>
+
+**✨ 主な機能**
+- 🗺️ **高徳地図2.0連携** - 重慶市主要区の空間地理可視化、区県ドリルダウン操作と動的レイヤー切替
+- 🤖 **AI都市計画アシスタント** - Tool Callingを搭載したLLMにより、自然言語による都市計画指標のリアルタイム照会に対応
+- 📊 **全画面デジタルコックピット** - 16:9 / 4:3比率に適応するレスポンシブ拡大縮小、豊富なデータチャート
+- 🛡️ **クラウドネイティブ＆セキュリティ** - Cloudflare Workers上にデプロイ、Turnstileボット検知とプロンプト注入防御
+
+<br/>
+
+<a href="https://city.wled.top">
+  <img src="https://img.shields.io/badge/🌐_デモ体験-city.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/city">
+  <img src="https://img.shields.io/badge/📦_ソース確認-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🔌 Koishiプラグインエコシステム
 
 <div align="center">
@@ -277,13 +417,57 @@ admin-system/
 <tr>
 <td align="center" width="33%">
 
+**🎬 アニメRSS配信**
+
+[![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-anime-rss)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-anime-rss?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-anime-rss)
+
+RSSアニメ購読＆ストリーミング配信。Zero-Heapメモリ防爆設計とグループファイル自動ルーティング
+
+`📺 アニメ購読` `⚡ ストリームDL` `🛡️ メモリ防爆`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+<td align="center" width="33%">
+
+**🚗 免許試験＆経済連動**
+
+[![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-driver-exam)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-driver-exam?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-driver-exam)
+
+実在の運転免許問題バンク連携。重複除外キャッシュ、ミュート巡回監視、通貨賞金チャレンジ
+
+`🚦 本番問題集` `💰 通貨懸賞` `⏱️ 免除延長`
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</td>
+<td align="center" width="33%">
+
+**💳 通貨信用拡張**
+
+[![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-extra)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-monetary-extra?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-monetary-extra)
+
+monetary通貨エコシステム向け信用スコア評価とPuppeteerによるメーターカード描画
+
+`📈 信用格付` `🖼️ メーターカード` `⚖️ 重み設定`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
 **💹 通貨取引所**
 
 [![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bourse)
 
-monetary汎用通貨システムベースの株式取引機能
+monetary汎用通貨システムをベースとした株式取引所機能をKoishiに提供
 
-`📈 リアルタイム相場` `💰 仮想取引` `📊 K線チャート`
+`📈 リアルタイム相場` `💰 仮想取引` `📊 ローソク足`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
@@ -294,25 +478,25 @@ monetary汎用通貨システムベースの株式取引機能
 
 [![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bank)
 
-monetary通貨システムの銀行サービス
+monetary通貨システム向け銀行関連サービスを提供
 
-`💳 預入引出` `📊 請求書` `🔒 セキュリティ`
+`💳 預金/引出` `📊 明細書` `🔒 セキュリティ`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 </td>
 <td align="center" width="33%">
 
-**🎯 通貨ミッション**
+**🎯 通貨タスク**
 
 [![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-mission)
 
-monetary通貨システムのユーザータスク機能
+monetaryプラグイン向けユーザーデイリー・クエスト機能を提供
 
-`✅ タスクシステム` `🏆 実績` `📝 日課`
+`✅ タスク機能` `🏆 実績` `📝 デイリー`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Archived](https://img.shields.io/badge/Archived-555555?style=flat-square)
+![アーカイブ済](https://img.shields.io/badge/アーカイブ済-555555?style=flat-square)
 
 </td>
 </tr>
@@ -325,43 +509,63 @@ monetary通貨システムのユーザータスク機能
 ### 🛠️ その他のプロジェクト
 
 <details>
-<summary><b>📈 WLEDステータス監視</b> - 稼働時間とステータスページ</summary>
+<summary><b>🧊 伴鶯のブログミニアプリ</b> - WeChatミニアプリ Hexoクライアント</summary>
+<br/>
+
+> uni-app と iOS 26 Liquid Glass デザイン言語で構築された洗練されたブログクライアント
+
+- 🪟 **Liquid Glass 没入型UI**：独自開発のすりガラス擬態カード、プリズム分散境界、コースティクス光彩
+- 🌊 **ゼリースプリング力学**：タップ時の弾性フィードバックと連動リップル伝播アニメーション
+- 🧭 **独自開発 Liquid TabBar**：ジェスチャー追従の液体スライダーボトムバーと触覚振動
+- 🌓 **全景アダプティブ**：ダーク/ライト両テーマに完全対応、Hexo RESTful APIとシームレス連携
+
+[![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/Ying-of-Me-mini)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![uni-app](https://img.shields.io/badge/uni--app-2B9939?style=flat-square&logo=dcloud&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>📈 WLED 稼働監視</b> - 稼働時間とステータスページ</summary>
 <br/>
 
 > Uptime monitor and status page, powered by @upptime
 
-- 🟢 リアルタイムサービス監視
-- 📊 応答時間と可用性の追跡
-- 🔔 自動アラート通知
+- 🟢 リアルタイムサービス稼働監視
+- 📊 応答時間と可用性の記録
+- 🔔 異常時の自動アラート通知
 
+[![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/wled-status)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>🎨 ポートフォリオ</b> - 個人ホームページ</summary>
+<summary><b>🎨 ポートフォリオ</b> - 個人ポータルサイト</summary>
 <br/>
 
-> プロジェクトとスキルを紹介する個人ホームページ
+> プロジェクト実績や技術スキルを展示する個人ポータル
 
-- 💼 プロフェッショナルな作品展示
-- 🌟 モダンなデザイン
-- 📱 完全レスポンシブ
+- 💼 プロフェッショナルな実績紹介
+- 🌟 モダンなデザインセンス
+- 📱 完全レスポンシブレイアウト
 
+[![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/BYWled-Portfolio)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
 
 <details>
-<summary><b>🛒 レゴストア</b> - ECモールデモ</summary>
+<summary><b>🛒 楽購ECモール</b> - ECモールデモ</summary>
 <br/>
 
-> ECコア機能をデモするショッピングモール
+> ECサイトの中核機能を実演するショッピングモールデモ
 
-- 🛍️ 商品閲覧と検索
-- 🛒 カートとチェックアウト
+- 🛍️ 商品検索・閲覧
+- 🛒 カート・決済ワークフロー
 - 📦 注文管理
 
+[![Repo](https://img.shields.io/badge/リポジトリ-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/lego_store)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </details>
@@ -399,7 +603,7 @@ monetary通貨システムのユーザータスク機能
 
 **📦 リポジトリ数**
 
-![Repos](https://img.shields.io/badge/13-238636?style=flat-square&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/19-238636?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">

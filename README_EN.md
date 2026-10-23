@@ -269,6 +269,146 @@ admin-system/
 
 ---
 
+### 🛠️ Ying Tools · Modern Privacy-First Toolbox
+
+<table>
+<tr>
+<td width="60%">
+
+> A pure client-side, privacy-first file toolbox offering 36 essential utilities. All processing is computed entirely in-browser via WebAssembly — **files are never uploaded**.
+
+<br/>
+
+**✨ Core Tool Matrix**
+
+| Category | Tools & Features | Engine |
+| :--: | :--------------- | :--: |
+| 🔄 **Format Conversion** | All image formats (AVIF/JXL/HEIC/WebP), audio/video, docs to PDF | jSquash / ffmpeg |
+| 📑 **PDF Tools** | Merge, split, organize, compress, encrypt/watermark, two-way conversion | pdf-lib / qpdf |
+| 🎨 **Media Processing** | Image editor, lossless compression, GIF maker/splitter, audio/video extract | MozJPEG / OxiPNG |
+| 🔍 **Smart Utilities** | Offline OCR text recognition, QR code generate/scan, file hash | tesseract.js |
+
+<br/>
+
+**🔒 Privacy & Performance Design**
+- 🛡️ **100% In-Browser Execution**: Powered by multi-threaded WebAssembly engines, offline-capable, zero data leakage
+- ⚡ **Cross-Origin Isolation**: Configured with COOP/COEP headers to unlock high-performance multi-threading and lazy-loading
+
+<br/>
+
+<a href="https://tools.wled.top">
+  <img src="https://img.shields.io/badge/🌐_Live_Demo-tools.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/ying-of-tools">
+  <img src="https://img.shields.io/badge/📦_View_Source-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="40%">
+
+<div align="center">
+
+**System Architecture**
+
+```
+┌───────────────────────────────┐
+│        Ying Tools SPA         │
+│   React 19 + Tailwind CSS v4  │
+├───────────────┬───────────────┤
+│   UI Layer    │ Zustand Store │
+└───────┬───────┴───────┬───────┘
+        │ On-demand Load│
+┌───────▼───────────────▼───────┐
+│     WebAssembly Engines       │
+│  ffmpeg.wasm / jSquash        │
+│  pdf-lib / tesseract.js, etc. │
+└───────────────────────────────┘
+  🔒 100% Client-Side · 0 Uploads
+```
+
+<br/>
+
+**Tech Stack**
+
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🏙️ Urban New District Digital Cockpit · City
+
+<table>
+<tr>
+<td width="40%">
+
+<div align="center">
+
+**System Architecture**
+
+```
+┌───────────────────────────────┐
+│  Digital Screen Cockpit (Next)│
+│   React 19 + Ant Design 6     │
+├───────────────┬───────────────┤
+│  AMap 2.0 API │ Data Dashboard│
+└───────┬───────┴───────┬───────┘
+        │ REST / Stream │
+┌───────▼───────────────▼───────┐
+│   Cloudflare Workers API      │
+│ AI Planning (Tool Calling)    │
+└───────────────────────────────┘
+```
+
+<br/>
+
+**Tech Stack**
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Ant Design 6](https://img.shields.io/badge/Ant_Design_6-0170FE?style=flat-square&logo=antdesign&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+</div>
+
+</td>
+<td width="60%">
+
+> Chongqing Urban New District Planning & Management Digital Screen System, blending macro planning indicators with micro geospatial insights into a unified modern cockpit.
+
+<br/>
+
+**✨ Features**
+- 🗺️ **Deep AMap Integration** - Geospatial visualization of Chongqing main districts with interactive district drill-down and dynamic layer toggling
+- 🤖 **AI Urban Planning Assistant** - LLM integration powered by Tool Calling to support natural language queries of urban planning indicators
+- 📊 **Full-Screen Digital Cockpit** - Responsive 16:9 / 4:3 layout scaling with rich interactive charts and key performance dashboards
+- 🛡️ **Cloud-Native & Security** - Deployed on Cloudflare Workers with Turnstile anti-bot verification and prompt injection safeguards
+
+<br/>
+
+<a href="https://city.wled.top">
+  <img src="https://img.shields.io/badge/🌐_Live_Demo-city.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/city">
+  <img src="https://img.shields.io/badge/📦_View_Source-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🔌 Koishi Plugin Ecosystem
 
 <div align="center">
@@ -277,13 +417,57 @@ admin-system/
 <tr>
 <td align="center" width="33%">
 
-**💹 Monetary Bourse**
+**🎬 Anime RSS Streamer**
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-anime-rss)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-anime-rss?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-anime-rss)
+
+High-performance RSS anime subscription & stream downloader with Zero-Heap Retention and smart group routing
+
+`📺 Anime RSS` `⚡ Stream Download` `🛡️ Zero-Heap`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+<td align="center" width="33%">
+
+**🚗 Driver Exam & Economy**
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-driver-exam)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-driver-exam?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-driver-exam)
+
+Real driver exam question bank with cache deduplication, mute inspection, and Monetary rewards
+
+`🚦 Exam Bank` `💰 Monetary Bounty` `⏱️ Exemption Delay`
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</td>
+<td align="center" width="33%">
+
+**💳 Monetary Extra & Credit**
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-extra)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-monetary-extra?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-monetary-extra)
+
+Comprehensive credit score evaluation with tech-styled gauge cards rendered via Puppeteer
+
+`📈 Credit Rating` `🖼️ Gauge Dashboard` `⚖️ Custom Weights`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
+**💹 Stock Exchange**
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bourse)
 
-Stock exchange functionality for Koishi based on the universal monetary system
+Provides Koishi with stock exchange functionality based on the monetary system
 
-`📈 Real-time Quotes` `💰 Virtual Trading` `📊 K-line Charts`
+`📈 Real-time Quotes` `💰 Trading` `📊 K-Line`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
@@ -294,22 +478,22 @@ Stock exchange functionality for Koishi based on the universal monetary system
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-bank)
 
-Banking services for the monetary system
+Provides banking services for the monetary money system
 
-`💳 Deposit/Withdraw` `📊 Billing` `🔒 Secure`
+`💳 Deposit/Withdraw` `📊 Billing` `🔒 Security`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 </td>
 <td align="center" width="33%">
 
-**🎯 Monetary Mission**
+**🎯 Monetary Tasks**
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-mission)
 
-User task system for the monetary plugin
+Provides user task functions for the monetary plugin
 
-`✅ Task System` `🏆 Achievements` `📝 Daily`
+`✅ Tasks` `🏆 Achievements` `📝 Daily`
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Archived](https://img.shields.io/badge/Archived-555555?style=flat-square)
@@ -325,43 +509,63 @@ User task system for the monetary plugin
 ### 🛠️ More Projects
 
 <details>
-<summary><b>📈 WLED Status</b> - Uptime monitor and status page</summary>
+<summary><b>🧊 Ying's Blog Mini Program</b> - WeChat Mini Program Hexo Client</summary>
+<br/>
+
+> High-aesthetic blog client built with uni-app and iOS 26 Liquid Glass design language
+
+- 🪟 **Liquid Glass Immersive UI**: Custom glassmorphism cards, dispersion borders & caustic glows
+- 🌊 **Jelly Spring Dynamics**: Physics-driven card tap feedback and ripple propagation animations
+- 🧭 **Liquid TabBar**: Floating gesture liquid-slider dock with haptic vibration feedback
+- 🌓 **Adaptive Theming**: Seamless dark/light theme switching with Hexo RESTful API integration
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/Ying-of-Me-mini)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![uni-app](https://img.shields.io/badge/uni--app-2B9939?style=flat-square&logo=dcloud&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>📈 WLED Status Monitor</b> - Uptime & Status Page</summary>
 <br/>
 
 > Uptime monitor and status page, powered by @upptime
 
 - 🟢 Real-time service monitoring
-- 📊 Response time & availability tracking
-- 🔔 Automatic alert notifications
+- 📊 Track response time & availability
+- 🔔 Automated incident alerting
 
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/wled-status)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>🎨 Personal Portfolio</b> - Personal homepage</summary>
+<summary><b>🎨 Personal Portfolio</b> - Personal Portal Page</summary>
 <br/>
 
-> Personal homepage showcasing projects and skills
+> Personal portal page showcasing projects and skills
 
 - 💼 Professional project showcase
-- 🌟 Modern design style
+- 🌟 Modern design aesthetic
 - 📱 Fully responsive layout
 
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/BYWled-Portfolio)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
 
 <details>
-<summary><b>🛒 Lego Store</b> - E-commerce demo</summary>
+<summary><b>🛒 Lego Store</b> - E-Commerce Demo</summary>
 <br/>
 
-> E-commerce store demo showcasing core shopping features
+> Lego store demo demonstrating core e-commerce workflows
 
 - 🛍️ Product browsing & search
 - 🛒 Shopping cart & checkout
-- 📦 Order management
+- 📦 Order tracking
 
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/lego_store)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </details>
@@ -399,7 +603,7 @@ User task system for the monetary plugin
 
 **📦 Repositories**
 
-![Repos](https://img.shields.io/badge/13-238636?style=flat-square&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/19-238636?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">

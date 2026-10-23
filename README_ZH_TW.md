@@ -269,11 +269,195 @@ admin-system/
 
 ---
 
+### 🛠️ 伴鶯的工具箱 · Ying Tools
+
+<table>
+<tr>
+<td width="60%">
+
+> 純前端隱私優先的現代化檔案工具箱，涵蓋 36 種高頻實用工具，所有處理均在瀏覽器本地由 WebAssembly 完成，**檔案永不上傳伺服器**。
+
+<br/>
+
+**✨ 核心工具矩陣**
+
+| 類別 | 工具清單與特性 | 引擎 |
+| :--: | :------------- | :--: |
+| 🔄 **格式轉換** | 圖片全格式(AVIF/JXL/HEIC/WebP)、音視訊、文件轉 PDF | jSquash / ffmpeg |
+| 📑 **PDF 工具** | 合併、分割、頁面整理、本地壓縮、浮水印加密、雙向轉換 | pdf-lib / qpdf |
+| 🎨 **媒體處理** | 圖片編輯器、無損壓縮、GIF 錄製拆幀、音視訊剪輯提取 | MozJPEG / OxiPNG |
+| 🔍 **智慧工具** | 本地離線 OCR 文字識別、二維碼生成與識別、檔案雜湊 | tesseract.js |
+
+<br/>
+
+**🔒 隱私與效能設計**
+- 🛡️ **100% 純本地執行**：依託瀏覽器多核 WebAssembly 引擎，離線可用，敏感資料不出本機
+- ⚡ **跨源隔離多執行緒**：配置 COOP/COEP 解鎖多執行緒算力，按需延遲載入引擎
+
+<br/>
+
+<a href="https://tools.wled.top">
+  <img src="https://img.shields.io/badge/🌐_線上體驗-tools.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/ying-of-tools">
+  <img src="https://img.shields.io/badge/📦_檢視原始碼-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="40%">
+
+<div align="center">
+
+**系統架構**
+
+```
+┌───────────────────────────────┐
+│       伴鶯的工具箱 SPA         │
+│   React 19 + Tailwind CSS v4  │
+├───────────────┬───────────────┤
+│   UI 互動層   │  Zustand 狀態 │
+└───────┬───────┴───────┬───────┘
+        │ 本地按需載入  │
+┌───────▼───────────────▼───────┐
+│     WebAssembly 引擎層        │
+│  ffmpeg.wasm / jSquash        │
+│  pdf-lib / tesseract.js 等    │
+└───────────────────────────────┘
+  🔒 純前端執行 · 資料 0 上傳
+```
+
+<br/>
+
+**技術堆疊**
+
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🏙️ 主城新區數位化駕駛艙 · City
+
+<table>
+<tr>
+<td width="40%">
+
+<div align="center">
+
+**系統架構**
+
+```
+┌───────────────────────────────┐
+│   數位化大螢幕駕駛艙 (Next.js) │
+│   React 19 + Ant Design 6     │
+├───────────────┬───────────────┤
+│ 高德地圖 2.0  │ 數據視覺化大螢幕│
+└───────┬───────┴───────┬───────┘
+        │ REST / Stream │
+┌───────▼───────────────▼───────┐
+│   Cloudflare Workers 服務端   │
+│  AI 規劃助理 (Tool Calling)   │
+└───────────────────────────────┘
+```
+
+<br/>
+
+**技術堆疊**
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Ant Design 6](https://img.shields.io/badge/Ant_Design_6-0170FE?style=flat-square&logo=antdesign&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+</div>
+
+</td>
+<td width="60%">
+
+> 重慶主城新區城市規劃建設管理數位化大螢幕系統，將宏觀規劃指標與微觀空間地理資訊融為一體的現代數據駕駛艙。
+
+<br/>
+
+**✨ 功能特性**
+- 🗺️ **高德地圖深度整合** - 重慶主城區空間地理展示，支援區縣下鑽互動與動態圖層切換
+- 🤖 **AI 城市規劃助理** - 接入大模型並搭載 Tool Calling 工具調用，支援自然語言即時查詢城市規劃指標
+- 📊 **全螢幕數位駕駛艙** - 針對 16:9 / 4:3 比例自適應縮放，豐富的數據視覺化圖表與關鍵指標儀表板
+- 🛡️ **雲端原生與安全保障** - 部署於 Cloudflare Workers，整合 Turnstile 人機驗證與敏感過濾機制
+
+<br/>
+
+<a href="https://city.wled.top">
+  <img src="https://img.shields.io/badge/🌐_線上體驗-city.wled.top-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>
+<a href="https://github.com/BYWled/city">
+  <img src="https://img.shields.io/badge/📦_檢視原始碼-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🔌 Koishi 外掛生態
 
 <div align="center">
 
 <table>
+<tr>
+<td align="center" width="33%">
+
+**🎬 動漫 RSS 推送**
+
+[![Repo](https://img.shields.io/badge/檢視倉庫-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-anime-rss)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-anime-rss?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-anime-rss)
+
+RSS 動漫訂閱與串流下載推送，記憶體防爆與群檔案智慧分流
+
+`📺 動漫訂閱` `⚡ 串流下載` `🛡️ 記憶體防爆`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+<td align="center" width="33%">
+
+**🚗 駕考答題聯動**
+
+[![Repo](https://img.shields.io/badge/檢視倉庫-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-driver-exam)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-driver-exam?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-driver-exam)
+
+接入真實科一/科四題庫，去重快取池，巡檢禁言與貨幣懸賞
+
+`🚦 真實題庫` `💰 貨幣懸賞` `⏱️ 豁免順延`
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</td>
+<td align="center" width="33%">
+
+**💳 貨幣信用擴充**
+
+[![Repo](https://img.shields.io/badge/檢視倉庫-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-extra)
+[![npm](https://img.shields.io/npm/v/koishi-plugin-monetary-extra?style=flat-square&logo=npm)](https://www.npmjs.com/package/koishi-plugin-monetary-extra)
+
+為 monetary 貨幣生態提供信用分評估與半圓環卡片渲染
+
+`📈 信用評級` `🖼️ 儀表板卡片` `⚖️ 權重配置`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</td>
+</tr>
 <tr>
 <td align="center" width="33%">
 
@@ -307,7 +491,7 @@ admin-system/
 
 [![Repo](https://img.shields.io/badge/檢視倉庫-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/koishi-plugin-monetary-mission)
 
-為 monetary 貨幣系統提供用戶任務功能
+為 monetary 貨幣系統提供使用者任務功能
 
 `✅ 任務系統` `🏆 成就` `📝 日常`
 
@@ -325,29 +509,48 @@ admin-system/
 ### 🛠️ 更多專案
 
 <details>
+<summary><b>🧊 伴鶯的小窩小程式</b> - Hexo 部落格微信小程式客戶端</summary>
+<br/>
+
+> 基於 uni-app 與 Liquid Glass 設計語言構建的高顏值部落格客戶端
+
+- 🪟 **Liquid Glass 全沉浸 UI**：自研毛玻璃擬態卡片、稜鏡色散邊框與焦散微光
+- 🌊 **果凍彈性動力學**：點按卡片物理回彈與連帶波及漣漪動畫
+- 🧭 **自研 Liquid TabBar**：懸浮手勢液態滑塊底欄與觸覺振動回饋
+- 🌓 **全景自適應**：明暗雙主題自適應渲染，無縫映射 Hexo RESTful API
+
+[![Repo](https://img.shields.io/badge/檢視倉庫-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/Ying-of-Me-mini)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![uni-app](https://img.shields.io/badge/uni--app-2B9939?style=flat-square&logo=dcloud&logoColor=white)
+
+</details>
+
+<details>
 <summary><b>📈 WLED 狀態監控</b> - 運行時間和狀態頁面</summary>
 <br/>
 
 > Uptime monitor and status page, powered by @upptime
 
 - 🟢 即時監控服務狀態
-- 📊 記錄響應時間與可用性
+- 📊 記錄回應時間與可用性
 - 🔔 異常自動告警通知
 
+[![Repo](https://img.shields.io/badge/檢視倉庫-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/wled-status)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>🎨 個人作品集</b> - 個人門戶主頁</summary>
+<summary><b>🎨 個人作品集</b> - 個人入口網站首頁</summary>
 <br/>
 
-> 個人門戶主頁，展示專案經歷與技能
+> 個人入口網站首頁，展示專案經歷與技能
 
 - 💼 專業作品展示
 - 🌟 現代設計風格
 - 📱 完全響應式佈局
 
+[![Repo](https://img.shields.io/badge/檢視倉庫-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/BYWled-Portfolio)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
@@ -359,9 +562,10 @@ admin-system/
 > 樂購商城 Demo，演示電商核心功能
 
 - 🛍️ 商品瀏覽與搜尋
-- 🛒 購物車與結帳
+- 🛒 購物車與結算
 - 📦 訂單管理
 
+[![Repo](https://img.shields.io/badge/檢視倉庫-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BYWled/lego_store)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 </details>
@@ -399,7 +603,7 @@ admin-system/
 
 **📦 倉庫總數**
 
-![Repos](https://img.shields.io/badge/13-238636?style=flat-square&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/19-238636?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td align="center">
